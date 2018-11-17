@@ -1,0 +1,62 @@
+
+body{
+    background: #f2f2f2;
+}
+
+h1{
+    font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 42px;
+    margin-top: 49px;
+    margin-bottom: 0px;
+    color: #444444;
+}
+.sw{
+    font-weight: bold;
+    margin-top: 0px;
+    
+}
+
+#gallery{
+    
+    background: #fff;
+    margin:15px auto;
+
+    width: 920px;
+    box-shadow: 0 0 3px #aaaaaa;
+    overflow:hidden;
+}  
+#slides{
+    height: 400px;
+    overflow:hidden;
+    
+
+}
+.slide{
+   float: left;
+}
+menu{
+    height: 45px;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+li{
+    float: left;
+    list-style: none;
+    position:relative;
+    left:33%;
+    padding-top: 15px;
+    padding-left: 28px;
+    
+    height: 45px;
+    width: 60px;
+}
+li:hover{
+    background:url(img/active_bg.png);
+    background-size: cover;
+
+}
